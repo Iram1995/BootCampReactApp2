@@ -8,7 +8,10 @@ const Child2=()=>{
 <div>
 <h3>This is done by using Reducer</h3>
     <h4>Value of reducer {state}</h4>
-    <button onClick={()=>dispatch("INCREMENT")}>Increment value of reducer</button></div>
+    <button onClick={()=>dispatch("INCREMENT")}>Increment value of reducer</button>
+    <br/>
+    <br/>
+    <button onClick={()=>dispatch("DECREMENT")}>Decrement value of reducer</button></div>
 
     )
 }

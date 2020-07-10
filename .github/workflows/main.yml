@@ -41,6 +41,6 @@ jobs:
       
     
     - name: Deploying using surge
-      run: surge ./build http://enormous-suggestion.surge.sh/ --token ${{secrets.React_Surge_Token}}
+      run: surge ./build http:// bootcamp-reducer.surge.sh/ --token ${{secrets.React_Surge_Token}}
         
         
